@@ -13,3 +13,8 @@ Create a virtualenv
 
 Source it
 ```source ~/.github-actions-demo/bin/activate```
+
+To prevent accidentally installing a pip package outside a virtualenv, update bashrc:
+```
+export PIP_REQUIRE_VIRTUALENV=true
+```
